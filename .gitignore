@@ -1,0 +1,17 @@
+# Secrets and local state (never commit)
+.env
+century_state.json
+century_settings.json
+century_telegram.json
+
+# Runtime output
+century_history.csv
+century_debug.txt
+century_debug.png
+century_clicks.txt
+century_unknown_*.png
+century_unknown_*.html
+
+# Python
+__pycache__/
+*.pyc
